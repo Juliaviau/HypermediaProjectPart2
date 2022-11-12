@@ -58,6 +58,7 @@ function start() {
 	var name = document.getElementById("Name").value;
 	var title2 = document.getElementsByTagName("h2")[0];
 
+	Game1.name = name;
 	title2.innerHTML = name
 
 	document.getElementById("Name").style.display = 'none';
